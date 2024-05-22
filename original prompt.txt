@@ -1,0 +1,50 @@
+i want you to generate a quiz game following these steps: Title: [Title of your quiz game]
+Theme: [What is the subject or theme of your quiz? e.g., History, Science, Movies, etc.]
+Difficulty: [Easy, Medium, Hard, or a range like Beginner, Intermediate, Expert]
+Number of Questions: [How many questions should be in the quiz?]
+Question Types:
+Multiple Choice
+True/False
+Fill in the Blank
+Open-Ended (short answer)
+Specific Instructions:
+[Add any specific instructions, like a time limit, hints, or scoring system]
+Example Questions:
+Question 1: [Write an example question based on the theme and question type]
+Answer 1: [Write a possible answer]
+Answer 2: [Write a possible answer]
+Answer 3: [Write a possible answer]
+Correct Answer: [Specify the correct answer]
+Question 2: [Write another example question]
+Answer 1: [Write a possible answer]
+Answer 2: [Write a possible answer]
+Answer 3: [Write a possible answer]
+Correct Answer: [Specify the correct answer]
+Additional Information:
+[Include any other information that would be helpful for generating the quiz game]
+Output:
+Quiz Questions: [Generate a list of questions with answers and the correct answer for each]
+Game Logic: [Provide basic logic for how the game should work, including scoring and feedback]
+Game Interface: [Suggest a basic UI layout for the game]
+Example Output:
+{
+  "questions": [
+    {
+      "question": "What is the capital of France?",
+      "answers": ["Berlin", "Paris", "Madrid"],
+      "correctAnswer": "Paris"
+    },
+    {
+      "question": "Who painted the Mona Lisa?",
+      "answers": ["Michelangelo", "Leonardo da Vinci", "Raphael"],
+      "correctAnswer": "Leonardo da Vinci"
+    }
+  ],
+  "gameLogic": {
+    "scoring": "One point per correct answer",
+    "feedback": "Display 'Correct!' or 'Incorrect' after each question"
+  },
+  "gameInterface": {
+    "layout": "Question displayed at the top, answer buttons below, score and timer on the side"
+  }
+}
