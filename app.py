@@ -24,11 +24,11 @@ app.add_middleware(
 )
 
 class Data(BaseModel):
-    tema:Annotated[str, Form()]
-    dificuldade:Annotated[str, Form()]
-    question_type:Annotated[str, Form()]
-    numero_questoes:Annotated[int, Form()]
-    lingua:Annotated[str, Form()]
+    tema:str
+    dificuldade:str
+    question_type:str
+    numero_questoes:str
+    lingua:str
 json_parser = SimpleJsonOutputParser()
 llm = GoogleGenerativeAI(model="gemini-pro")
 
